@@ -1,14 +1,16 @@
-import React, { Component } from 'react';
-import {HashRouter} from 'react-router-dom';
-import Routes from './Routes';
-import './App.css';
+import React, { Component } from "react";
+import { HashRouter } from "react-router-dom";
+import Routes from "./Routes";
+import "./App.css";
+import Header from "./components/Header/Header";
 
 class App extends Component {
   render() {
     return (
       <HashRouter>
         <div className="App">
-          <Routes/>
+          <Header />
+          <Routes />
         </div>
       </HashRouter>
     );
