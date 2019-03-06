@@ -10,8 +10,8 @@
     "express": "^4.16.4",
     "massive": "^5.7.4",
     "nodemon": "^1.18.9",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "react": "next",
+    "react-dom": "next",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.3"
   },
